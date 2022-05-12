@@ -3,7 +3,7 @@ import os
 
 python_command = "py"
 
-def upgrade():
+def     upgrade():
 	upgrades, errors = [], []
 
 	os.system(python_command + " -m pip install -U pip")
